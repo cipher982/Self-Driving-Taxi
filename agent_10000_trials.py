@@ -48,7 +48,7 @@ class LearningAgent(Agent):
         # Starts out learning quickly then decreases over the time incremented
         self.time += 1
         alpha = 1.0 / self.time
-        gamma = .5
+        gamma = .35
 
         # At first I had included 'right', but after more thinking, realized it is not needed
         self.state = (inputs['light'], inputs['oncoming'], inputs['left'], self.next_waypoint)
