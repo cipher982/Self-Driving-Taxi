@@ -2,7 +2,7 @@
 # Self-Driving Taxi
 ## Using Reinforcement Learning in Python to Teach an Agent to Drive
 
-If you wanted to write a program for a self-driving taxi, Normally one may normally hard-code rules of the road in and explicitly program bad actions such as running a red light or hitting other cars. But another way would be to merely let the agent begin performing actions at random, and over time learn the consequences of those actions.
+If you wanted to write a program for a self-driving taxi, one may normally hard-code the rules of the road and explicitly program bad actions such as running a red light or hitting other cars. But another way would be to merely let the agent begin performing actions at random, and over time learn the consequences of those actions.
 
 Using a Q-Learning formula we can help the agent find the rewards, positive and negative, of driving routes for the passengers. Then with this knowledge it will continually improve over time all without any intervention.
 
